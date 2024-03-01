@@ -1,54 +1,60 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
-.raleway {
-    font-family: "Raleway", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.open-sans {
+    font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 100;
+    font-weight: 300;
     font-style: normal;
-  }
-
+    font-variation-settings:
+      "wdth" 100;
+} 
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  } 
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "Open Sans", sans-serif;
 }
 #fundo_cabeca{
-    background-image: url('./imagens/papel_parede.jpg');
+    background-image: url('./imagens/gato_bg_p.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: top center;
 }
 #cabeca{
-    width: 500px;
-    height: 300px;
     margin: auto;
-    margin-bottom: 5px;
-    border-radius: 2px 15px 2px 15px;
-    box-shadow: 1px 1px 10px rgb(15, 0, 32);
-    background-color: rgba(228, 250, 215, 0.205);
+    height: 210px;
+    width: auto;
 }
 #cabeca > h1{
-    color: rgb(171, 184, 241);
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    border-radius: 5px;
+    text-shadow: 1px 2px 5px gray;
+    box-shadow: 2px 1px 5px rgb(80, 80, 80);
     text-align: center;
-    padding-top: 10px;
-    text-shadow: 1px 1px 4px black;
-    text-decoration: overline underline;
-    font-size: 30px;
-    font-family: "Raleway", sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    text-decoration: underline;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0.527), rgba(0, 0, 0, 0.24));
 }
 #cabeca > ul{
-    margin-left: 50px;
-    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 250px;
+    display: inline-block;
+    text-align: center;
 }
-
-ul > li{
-    padding: 15px;
-    color: rgb(3, 3, 27);
-}
-a{
+ul > li, a{
+    padding: 5px;
     color: rgb(3, 3, 27);
     text-decoration: none;
-    padding: 5px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -58,34 +64,29 @@ a:hover{
     transition: 0.5s;
 }
 #cabeca > img{
-    position: relative;
-    left: 270px;
-    bottom: 160px;
+    display: none;
 }
 
-/* Sessão div > eu */
-
+/* Sessão sobre mim */
 #eu{
-    width: 500px;
-    height: 730px;
-    background-color: rgba(240, 248, 255, 0.253);
+    width: 530px;
+    height: 660px;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.575);
     border-radius: 2px 15px 2px 15px;
     box-shadow: 1px 1px 10px rgb(15, 0, 32);
-    display: block;
-    margin: auto;
-    margin-top: 5px;
+    
 }
-#foto_will{
-    width: 270px;
-}
-#foto_will > img{
+#foto_will , img{
+    width: 230px;
     border-radius: 50%;
-    box-shadow: 1px 1px 10px rgb(15, 0, 32);
-    margin: 15px;
+    margin: 5px;
 }
 #foto_will > img:hover{
     border-radius: 20%;
     transition: 0.3s;
+    box-shadow: 1px 1px 10px rgb(15, 0, 32);
 }
 #eu > h2{
     display: inline;
@@ -96,26 +97,24 @@ a:hover{
     font-size: 30px;
 }
 #eu > p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Roboto", sans-serif;
     text-align: justify;
-    margin-top: 20px;
-    margin-left: 10px;
+    margin-top: 10px;
     margin-right: 10px;
     color: rgb(0, 0, 0);
     font-size: 16px;
     background-color: rgba(240, 248, 255, 0.301);
-    line-height: 1.2em;
+    line-height: 1.5em;
 }
-
 /* Corpo Card01 */
 #corpo{
     background-image: linear-gradient(to top, rgb(58, 17, 17), rgb(202, 88, 88), rgb(250, 180, 180));
 }
 #fundo01{
-    width: 800px;
+    width: 550px;
     height: 500px;
     margin: auto;
-    background-image: url('imagens/fundo_02.jpg');
+    background-image: url('imagens/fundo_02_g.jpg');
     background-position: center center;
     background-attachment: fixed;
 }
@@ -128,6 +127,9 @@ a:hover{
     margin-left: 10px;
     margin-top: 5px;
     box-shadow: 4px 8px 14px black;
-    background-image: url('imagens/fundo_card01.jpg');
+    background-image: url('imagens/fundo_card01_g.jpg');
     background-position: bottom center;
+}
+#fund06_card06 , #fund05_card05{
+    display: none;
 }
