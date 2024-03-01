@@ -1,6 +1,144 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
 
+@media screen and (orientation:landscape) {
+    .raleway {
+        font-family: "Raleway", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100;
+        font-style: normal;
+    }
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    #fundo_cabeca{
+        background-image: url('./imagens/gato_bg_g.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+    }
+    #cabeca{
+        width: 500px;
+        height: 300px;
+        margin: auto;
+        margin-bottom: 5px;
+        border-radius: 2px 15px 2px 15px;
+        box-shadow: 1px 1px 10px rgb(15, 0, 32);
+        background-color: rgba(228, 250, 215, 0.205);
+    }
+    #cabeca > h1{
+        color: rgb(171, 184, 241);
+        text-align: center;
+        padding-top: 10px;
+        text-shadow: 1px 1px 4px black;
+        text-decoration: overline underline;
+        font-size: 30px;
+        font-family: "Raleway", sans-serif;
+    }
+    #cabeca > ul{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+    ul > li{
+        padding: 15px;
+        color: rgb(3, 3, 27);
+    }
+    a{
+        color: rgb(3, 3, 27);
+        text-decoration: none;
+        padding: 5px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    a:hover{
+        background-color: rgba(211, 205, 205, 0.63);
+        border-radius: 15px;
+        transition: 0.5s;
+    }
+    #cabeca > img{
+        position: relative;
+        left: 270px;
+        bottom: 160px;
+    }
+    
+    /* Sessão div > eu */
+    
+    #eu{
+        width: 500px;
+        height: 730px;
+        background-color: rgba(240, 248, 255, 0.253);
+        border-radius: 2px 15px 2px 15px;
+        box-shadow: 1px 1px 10px rgb(15, 0, 32);
+        display: block;
+        margin: auto;
+        margin-top: 5px;
+    }
+    #foto_will{
+        width: 270px;
+    }
+    #foto_will > img{
+        border-radius: 50%;
+        box-shadow: 1px 1px 10px rgb(15, 0, 32);
+        margin: 15px;
+    }
+    #foto_will > img:hover{
+        border-radius: 20%;
+        transition: 0.3s;
+    }
+    #eu > h2{
+        display: inline;
+        position: relative;
+        left: 60%;
+        top: 20%;
+        text-decoration: underline;
+        font-size: 30px;
+    }
+    #eu > p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: justify;
+        margin-top: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        background-color: rgba(240, 248, 255, 0.301);
+        line-height: 1.2em;
+    }
+    
+    /* Corpo Card01 */
+    #corpo{
+        background-image: linear-gradient(to top, rgb(58, 17, 17), rgb(202, 88, 88), rgb(250, 180, 180));
+    }
+    #fundo01{
+        width: 800px;
+        height: 500px;
+        margin: auto;
+        background-image: url('imagens/fundo_02_g.jpg');
+        background-position: center center;
+        background-attachment: fixed;
+        display: block;
+    }
+    .card01{
+        width: 250px;
+        height: 240px;
+        background-color: rgba(73, 21, 21, 0.705);
+        display: inline-block;
+        margin: auto;
+        margin-left: 10px;
+        margin-top: 5px;
+        box-shadow: 4px 8px 14px black;
+        background-image: url('imagens/fundo_card01_g.jpg');
+        background-position: bottom center;
+    }
+    #fund06_card06 , #fund05_card05{
+        display: inline-block;
+    }
+}
+
 @media screen and (min-width:993px) and (max-width:1500px) {
     .raleway {
         font-family: "Raleway", sans-serif;
