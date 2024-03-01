@@ -29,7 +29,7 @@
 #cabeca{
     margin: auto;
     height: 210px;
-    width: auto;
+    width: 90vw;
 }
 #cabeca > h1{
     width: 300px;
