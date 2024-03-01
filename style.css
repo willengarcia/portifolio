@@ -104,10 +104,10 @@ a:hover{
     background-color: rgba(240, 248, 255, 0.301);
     line-height: 1.5em;
 }
-/* Corpo Card01 */
+/* Corpo Sessão 01 */
 #corpo{
     margin: auto;
-    background-image: linear-gradient(to top, rgb(58, 17, 17), rgb(202, 88, 88), rgb(250, 180, 180));
+    background-image: linear-gradient(to top, rgb(58, 17, 17), rgb(202, 88, 88), rgba(250, 180, 180, 0.719));
 }
 #fundo01{
     width: auto;
@@ -129,6 +129,37 @@ a:hover{
     background-image: url('imagens/fundo_card01_g.jpg');
     background-position: bottom center;
 }
-#fund06_card06 , #fund05_card05{
+#fund01_card06 , #fund01_card05{
     display: none;
+}
+/* Corpo Sessão 02 */
+#fundo02{
+    width: auto;
+    height: 1150px;
+    margin: auto;
+    background-image: url('imagens/fundo_03_g.png');
+    background-position: center center;
+    background-attachment: fixed;
+}
+#fund02_card01{
+    margin: auto;
+    width: 350px;
+    height: 1150px;
+    background-color: rgba(133, 131, 131, 0.452);
+}
+#fund02_card01 > h3{
+    text-decoration: underline;
+    font-size: 25px;
+    text-align: center;
+}
+#fund02_card01 > p{
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: bold;
 }
