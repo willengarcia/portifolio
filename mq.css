@@ -120,6 +120,7 @@
         background-image: url('imagens/fundo_02_g.jpg');
         background-position: center center;
         background-attachment: fixed;
+        display: block;
     }
     .card01{
         width: 250px;

@@ -24,7 +24,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: top center;
 }
 #cabeca{
     margin: auto;
@@ -47,14 +46,13 @@
 #cabeca > ul{
     margin-bottom: 20px;
     margin-top: 10px;
-    margin-left: 250px;
-    display: inline-block;
     text-align: center;
 }
-ul > li, a{
+li, a{
     padding: 5px;
-    color: rgb(3, 3, 27);
+    color: rgb(211, 203, 203);
     text-decoration: none;
+    list-style-type: none;
     font-size: 20px;
     font-weight: bold;
 }
@@ -69,10 +67,9 @@ a:hover{
 
 /* Sessão sobre mim */
 #eu{
-    width: 530px;
-    height: 660px;
+    width: auto;
+    height: 860px;
     margin: auto;
-    padding: 10px;
     background-color: rgba(240, 248, 255, 0.575);
     border-radius: 2px 15px 2px 15px;
     box-shadow: 1px 1px 10px rgb(15, 0, 32);
@@ -100,7 +97,8 @@ a:hover{
     font-family: "Roboto", sans-serif;
     text-align: justify;
     margin-top: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     color: rgb(0, 0, 0);
     font-size: 16px;
     background-color: rgba(240, 248, 255, 0.301);
@@ -108,23 +106,24 @@ a:hover{
 }
 /* Corpo Card01 */
 #corpo{
+    margin: auto;
     background-image: linear-gradient(to top, rgb(58, 17, 17), rgb(202, 88, 88), rgb(250, 180, 180));
 }
 #fundo01{
-    width: 550px;
+    width: auto;
     height: 500px;
     margin: auto;
     background-image: url('imagens/fundo_02_g.jpg');
     background-position: center center;
     background-attachment: fixed;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
 }
 .card01{
-    width: 250px;
+    width: 180px;
     height: 240px;
     background-color: rgba(73, 21, 21, 0.705);
-    display: inline-block;
     margin: auto;
-    margin-left: 15px;
     margin-top: 5px;
     box-shadow: 4px 8px 14px black;
     background-image: url('imagens/fundo_card01_g.jpg');
