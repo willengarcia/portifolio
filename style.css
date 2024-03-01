@@ -145,12 +145,13 @@ a:hover{
     margin: auto;
     width: 350px;
     height: 1150px;
-    background-color: rgba(133, 131, 131, 0.452);
+    background-color: rgba(43, 43, 43, 0.452);
 }
 #fund02_card01 > h3{
     text-decoration: underline;
     font-size: 25px;
     text-align: center;
+    color: rgb(172, 173, 173);
 }
 #fund02_card01 > p{
     font-family: "Roboto", sans-serif;
