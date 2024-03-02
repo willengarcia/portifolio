@@ -19,6 +19,7 @@
     padding: 0px;
     font-family: "Open Sans", sans-serif;
 }
+/* Cabeça */
 #fundo_cabeca{
     background-image: url('./imagens/gato_bg_p.jpg');
     background-size: cover;
