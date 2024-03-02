@@ -139,7 +139,7 @@
     }
 }
 
-@media screen and (min-width:993px) and (max-width:1500px) {
+@media screen and (min-width:993px) and (max-width:1700px) {
     .raleway {
         font-family: "Raleway", sans-serif;
         font-optical-sizing: auto;
@@ -203,7 +203,7 @@
         bottom: 160px;
     }
     
-    /* Sessão div > eu */
+    /* Corpo Sessão Sobre Mim */
     
     #eu{
         width: 500px;
@@ -247,10 +247,7 @@
         line-height: 1.2em;
     }
     
-    /* Corpo Card01 */
-    #corpo{
-        background-image: linear-gradient(to top, rgb(58, 17, 17), rgb(202, 88, 88), rgb(250, 180, 180));
-    }
+    /* Corpo Sessão Habilidades */
     #fundo01{
         width: 800px;
         height: 500px;
@@ -274,5 +271,81 @@
     }
     #fund01_card06 , #fund01_card05{
         display: inline-block;
+    }
+    /* Corpo Sessão Competências */
+    #fundo02{
+        width: auto;
+        height: 740px;
+        margin: auto;
+        background-image: url('imagens/fundo_03_g.png');
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    #fund02_card01{
+        margin: auto;
+        width: 800px;
+        height: 740px;
+        background-color: rgba(43, 43, 43, 0.623);
+    }
+    #fund02_card01 > h3{
+        text-decoration: underline;
+        font-size: 25px;
+        text-align: center;
+        color: rgb(172, 173, 173);
+        padding-top: 20px;
+        margin-bottom: 20px;
+    }
+    #fund02_card01 > p{
+        font-family: "Roboto", sans-serif;
+        text-align: justify;
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        color: rgb(238, 220, 220);
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+    /* Corpo Sessão Projeto 01 */
+    #fundo03{
+        width: auto;
+        height: 2050px;
+        background-image: url('./imagens/fundo_04_g.jpg');
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    #fund03_card01{
+        padding-top: 25px;
+    }
+    #fund03_card01 > iframe{
+        width: 1200px;
+        height: 650px;
+        margin: auto;
+        display: block;
+        box-shadow: -4px -4px 7px rgb(17, 17, 39);
+    }
+    /* Corpo Sessão Projeto 02 */
+    #fund03_card02{
+        padding-top: 25px;
+    }
+    #fund03_card02 > iframe{
+        width: 1200px;
+        height: 650px;
+        margin: auto;
+        display: block;
+        box-shadow: -4px -4px 7px rgba(17, 17, 39, 0.658);
+        background-color: rgba(240, 255, 255, 0.562);
+    }
+    /* Corpo Sessão Projeto 03 */
+    #fund03_card03{
+        padding-top: 25px;
+    }
+    #fund03_card03 > iframe{
+        width: 1200px;
+        height: 650px;
+        margin: auto;
+        display: block;
+        box-shadow: -4px -4px 7px rgba(17, 17, 39, 0.658);
+        background-color: rgba(240, 255, 255, 0.562);
     }
 }

@@ -66,7 +66,7 @@ a:hover{
     display: none;
 }
 
-/* Sessão sobre mim */
+/* Corpo Sessão Sobre Mim */
 #eu{
     width: auto;
     height: 800px;
@@ -105,7 +105,7 @@ a:hover{
     background-color: rgba(240, 248, 255, 0.301);
     line-height: 1.5em;
 }
-/* Corpo Sessão 01 */
+/* Corpo Sessão Habilidades */
 #corpo{
     margin: auto;
     background-image: linear-gradient(to top, rgb(58, 17, 17), rgb(202, 88, 88), rgba(250, 180, 180, 0.719));
@@ -133,7 +133,7 @@ a:hover{
 #fund01_card06 , #fund01_card05{
     display: none;
 }
-/* Corpo Sessão 02 */
+/* Corpo Sessão Competências */
 #fundo02{
     width: auto;
     height: 1150px;
@@ -164,4 +164,51 @@ a:hover{
     font-size: 16px;
     line-height: 1.5em;
     font-weight: bold;
+}
+/* Corpo Sessão Projeto 01 */
+#fundo03{
+    width: auto;
+    height: 1800px;
+    margin: auto;
+    background-image: url('./imagens/fundo_04_g.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#fund03_card01{
+    padding-top: 25px;
+    margin: auto;
+}
+#fund03_card01 > iframe{
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    display: block;
+    box-shadow: -4px -4px 7px rgb(17, 17, 39);
+}
+/* Corpo Sessão Projeto 02 */
+#fund03_card02{
+    padding-top: 25px;
+    margin: auto;
+}
+#fund03_card02 > iframe{
+    width: 350px;
+    height: 500px;
+    margin: auto;
+    display: block;
+    box-shadow: -4px -4px 7px rgba(17, 17, 39, 0.658);
+    background-color: rgba(240, 255, 255, 0.562);
+}
+/* Corpo Sessão Projeto 03 */
+#fund03_card03{
+    padding-top: 25px;
+    margin: auto;
+}
+#fund03_card03 > iframe{
+    width: 400px;
+    height: 700px;
+    margin: auto;
+    display: block;
+    box-shadow: -4px -4px 7px rgba(17, 17, 39, 0.658);
+    background-color: rgba(240, 255, 255, 0.562);
 }
