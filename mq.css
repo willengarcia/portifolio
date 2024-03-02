@@ -272,7 +272,7 @@
         background-image: url('imagens/fundo_card01_g.jpg');
         background-position: bottom center;
     }
-    #fund01_card06 , #fund05_card05{
+    #fund01_card06 , #fund01_card05{
         display: inline-block;
     }
 }
