@@ -120,6 +120,21 @@ a:hover{
     grid-template-columns: 1fr 1fr;
     display: grid;
 }
+@keyframes animacao {
+    from{
+        opacity: 0;
+        translate: -100vw 0;
+    }
+    to{
+        opacity: 1;
+        translate: 0 0;
+    }
+}
+.card01{
+    animation: animacao 0.5ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 45%; /* se vai aparecer antes ou não */
+}
 .card01{
     width: 180px;
     height: 240px;
