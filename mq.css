@@ -179,11 +179,15 @@
     #cabeca > ul{
         margin-left: 50px;
         margin-top: 20px;
+        text-align: left;
     }
     
     ul > li{
         padding: 15px;
         color: rgb(3, 3, 27);
+        display: block;
+
+        
     }
     a{
         color: rgb(3, 3, 27);
@@ -200,8 +204,10 @@
     }
     #cabeca > img{
         position: relative;
-        left: 270px;
-        bottom: 160px;
+        left: 276px;
+        bottom: 215px;
+        width: 100px;
+        display: block;
     }
     
     /* Corpo Sessão Sobre Mim */
