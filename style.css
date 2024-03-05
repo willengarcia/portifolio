@@ -19,6 +19,7 @@
     padding: 0px;
     font-family: "Open Sans", sans-serif;
 }
+
 /* Cabeça */
 #fundo_cabeca{
     background-image: url('./imagens/gato_bg_p.jpg');
@@ -56,7 +57,7 @@ li, a{
     list-style-type: none;
     font-size: 20px;
     font-weight: bold;
-    display: block;
+    display: inline-block;
 }
 #cabeca > ul > li > a:hover{
     background-color: rgba(211, 205, 205, 0.63);
@@ -106,6 +107,7 @@ li, a{
     background-color: rgba(240, 248, 255, 0.301);
     line-height: 1.5em;
 }
+
 /* Corpo Sessão Habilidades */
 #corpo{
     margin: auto;
@@ -149,6 +151,7 @@ li, a{
 #fund01_card06 , #fund01_card05{
     display: none;
 }
+
 /* Corpo Sessão Competências */
 #fundo02{
     width: auto;
@@ -181,6 +184,7 @@ li, a{
     line-height: 1.5em;
     font-weight: bold;
 }
+
 /* Corpo Sessão Projeto 01 */
 #fundo03{
     width: auto;
@@ -202,6 +206,7 @@ li, a{
     display: block;
     box-shadow: -4px -4px 7px rgb(17, 17, 39);
 }
+
 /* Corpo Sessão Projeto 02 */
 #fund03_card02{
     padding-top: 25px;
@@ -215,6 +220,7 @@ li, a{
     box-shadow: -4px -4px 7px rgba(17, 17, 39, 0.658);
     background-color: rgba(240, 255, 255, 0.562);
 }
+
 /* Corpo Sessão Projeto 03 */
 #fund03_card03{
     padding-top: 25px;
@@ -228,6 +234,7 @@ li, a{
     box-shadow: -4px -4px 7px rgba(17, 17, 39, 0.658);
     background-color: rgba(240, 255, 255, 0.562);
 }
+
 /* Formulário da página */
 #formulario{
     width: 400px;
@@ -254,6 +261,7 @@ form > input{
     height: 30px;
     margin: 5px 0px 5px 65px;
 }
+
 /* Rodape da página */
 #rodape{
     width: 400px;

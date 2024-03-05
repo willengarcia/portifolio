@@ -54,7 +54,7 @@
         font-size: 20px;
         font-weight: bold;
     }
-    a:hover{
+    #cabeca > ul > li > a:hover{
         background-color: rgba(211, 205, 205, 0.63);
         border-radius: 15px;
         transition: 0.5s;
@@ -146,7 +146,6 @@
         font-weight: 100;
         font-style: normal;
     }
-    
     *{
         margin: 0px;
         padding: 0px;
@@ -181,7 +180,6 @@
         margin-top: 20px;
         text-align: left;
     }
-    
     ul > li{
         padding: 15px;
         color: rgb(3, 3, 27);
@@ -197,7 +195,7 @@
         font-weight: bold;
         transition: all 0.5s ease-in-out;
     }
-    a:hover{
+    #cabeca > ul > li > a:hover{
         background-color: rgba(211, 205, 205, 0.63);
         border-radius: 15px;
         transition: 0.5s;
@@ -211,7 +209,6 @@
     }
     
     /* Corpo Sessão Sobre Mim */
-    
     #eu{
         width: 500px;
         height: 730px;
@@ -294,6 +291,7 @@
     #fund01_card06 , #fund01_card05{
         display: inline-block;
     }
+
     /* Corpo Sessão Competências */
     #fundo02{
         width: auto;
@@ -327,6 +325,7 @@
         font-size: 16px;
         line-height: 1.5em;
     }
+
     /* Corpo Sessão Projeto 01 */
     #fundo03{
         width: auto;
@@ -346,6 +345,7 @@
         display: block;
         box-shadow: -4px -4px 7px rgb(17, 17, 39);
     }
+
     /* Corpo Sessão Projeto 02 */
     #fund03_card02{
         padding-top: 25px;
@@ -358,6 +358,7 @@
         box-shadow: -4px -4px 7px rgba(17, 17, 39, 0.658);
         background-color: rgba(240, 255, 255, 0.562);
     }
+
     /* Corpo Sessão Projeto 03 */
     #fund03_card03{
         padding-top: 25px;
@@ -369,5 +370,29 @@
         display: block;
         box-shadow: -4px -4px 7px rgba(17, 17, 39, 0.658);
         background-color: rgba(240, 255, 255, 0.562);
+    }
+    
+    /* Rodapé Formulário */
+    #conteiner{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-image: linear-gradient(to left, rgb(47, 112, 165), rgb(8, 8, 63));
+    }
+    #formulario{
+        height: 374px;
+        color: aliceblue;
+    }
+    form > input{
+        width: 100px;
+        height: 45px;
+        text-align: center;
+    }
+    #rodape > a{
+        width: 50px;
+        height: 50px;
+
+    }
+    #rodape > a > img{
+        margin-left: 70px;
     }
 }
