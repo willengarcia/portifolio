@@ -29,7 +29,7 @@
 }
 #cabeca{
     margin: auto;
-    height: 210px;
+    height: auto;
     width: 90vw;
 }
 #cabeca > h1{
@@ -188,7 +188,7 @@ li, a{
 /* Corpo Sessão Projeto 01 */
 #fundo03{
     width: auto;
-    height: 1800px;
+    height: auto;
     margin: auto;
     background-image: url('./imagens/fundo_04_g.jpg');
     background-position: center center;
@@ -229,6 +229,20 @@ li, a{
 #fund03_card03 > iframe{
     width: 400px;
     height: 700px;
+    margin: auto;
+    display: block;
+    box-shadow: -4px -4px 7px rgba(17, 17, 39, 0.658);
+    background-color: rgba(240, 255, 255, 0.562);
+}
+/* Corpo Sessão Projeto 04 */
+#fund03_card04{
+    padding-top: 25px;
+    margin: auto;
+    padding-bottom: 25px;
+}
+#fund03_card04 > iframe{
+    width: 360px;
+    height: 500px;
     margin: auto;
     display: block;
     box-shadow: -4px -4px 7px rgba(17, 17, 39, 0.658);

@@ -329,7 +329,7 @@
     /* Corpo Sessão Projeto 01 */
     #fundo03{
         width: auto;
-        height: 2050px;
+        height: auto;
         background-image: url('./imagens/fundo_04_g.jpg');
         background-position: center center;
         background-size: cover;
@@ -364,6 +364,19 @@
         padding-top: 25px;
     }
     #fund03_card03 > iframe{
+        width: 1200px;
+        height: 650px;
+        margin: auto;
+        display: block;
+        box-shadow: -4px -4px 7px rgba(17, 17, 39, 0.658);
+        background-color: rgba(240, 255, 255, 0.562);
+    }
+    /* Corpo Sessão Projeto 04 */
+    #fund03_card04{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    #fund03_card04 > iframe{
         width: 1200px;
         height: 650px;
         margin: auto;
